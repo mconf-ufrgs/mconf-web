@@ -97,7 +97,7 @@ ActiveRecord::Schema.define(version: 20141218184717) do
     t.boolean  "available",   default: true
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "description"
+    t.text     "description"
     t.integer  "meeting_id"
   end
 
